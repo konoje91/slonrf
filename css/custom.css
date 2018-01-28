@@ -1,0 +1,235 @@
+@font-face {
+    font-family: 'FiraSans';
+    src: url('../fonts/FiraSans-Heavy.eot');
+    src: url('../fonts/FiraSans-Heavy.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/FiraSans-Heavy.woff') format('woff'),
+    url('../fonts/FiraSans-Heavy.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FiraSans';
+    src: url('../fonts/FiraSans-Regular.eot');
+    src: url('../fonts/FiraSans-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/FiraSans-Regular.woff') format('woff'),
+    url('../fonts/FiraSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/OpenSans-Regular.eot');
+    src: url('../fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/OpenSans-Regular.woff') format('woff'),
+    url('../fonts/OpenSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+	font-family: FiraSans;
+	font-weight: 700;
+	font-size: 60px;
+	padding: 13px 0;
+	line-height: 86px;
+}
+
+h2 {
+	font-family: 'FiraSans';
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 58px;
+	padding-top: 120px;
+	padding-bottom: 30px;
+}
+
+h3 {
+	font-size: 40px;
+	font-weight: bold;
+	margin: 0px;
+	text-align: center;
+	padding: 60px 0px;
+}
+
+img {
+	width: 100%;
+}
+
+a, p, h3 {
+	color: #02182b;
+}
+
+header .header-wrapper {
+	height: 340px;
+	background: #e5e5e5; /* Old browsers */
+	background: -moz-linear-gradient(top, #e5e5e5 0%, #ffffff 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #e5e5e5 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #e5e5e5 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+header .logo .main-logo-img {
+	height: 220px;
+	width: 190px;
+}
+
+header .navbar {
+	background-color: #fff;
+}
+
+header .header-wrapper .main-header {
+	margin: 0 auto;
+	width: 600px;
+	padding-top: 30px;
+}
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+	color: #e41951;
+}
+
+.navbar-light .navbar-brand:active {
+	color: #911033;
+}
+
+header .header-wrapper .main-header .logo{
+	float: left;
+    padding: 0px 48px;
+}
+
+header .header-wrapper .main-header .main-info{
+	float: left;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.main-phone{
+	font-size: 40px;
+	font-weight: bold;
+}
+
+header .navbar .navbar-brand {
+	font-size: 18px;
+	padding-top: 18px;
+	padding-bottom: 16px;
+}
+
+.how-we-work-wrapper {
+	background-color: #f7f9ff;
+}
+
+.main-info-block {
+	background: url(../img/header.png) no-repeat;
+	background-size: cover;
+	height: 600px; 
+}
+
+.main-info-block .consultation {
+    position: relative;
+    left: 40px;
+    bottom: 40px;
+	width: 140px;
+	height: 140px;
+	border-radius: 70px;
+    background-color: #0197f6;
+}
+
+.main-info-block .consultation p {
+    color: #fff;
+    font-size: 14px;
+    padding: 48px 24px;
+    text-align: center;
+}
+
+.main-info-block .info-text {
+	width: 620px;
+	padding-top: 60px;
+	margin: 0px auto;
+	text-align: center;	
+}
+
+.main-info-block .info-text p {
+	font-size: 18px;
+	color: #ffffff;
+}
+
+.main-info-block .info-text p.info-text-width {
+	width: 300px;
+	font-size: 18px;
+	color: #ffffff;
+	margin: 0 auto;
+}
+
+.offers .kap-remont {
+	height: 700px;
+	background: url(../img/img-service-1.png) no-repeat;
+	background-size: cover;
+}
+
+.offers .kap-remont h4{
+	color: #ffffff;
+}
+
+.offers .kap-remont li{
+	color: #ffffff;
+}
+
+.about-company .img-size {
+	width: 100px;
+	height: 120px;
+}
+
+.about-company .img-size img {
+	width: 100px;
+}
+
+.about-company p {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.how-we-work-wrapper img {
+	width: 120px;
+	height: 120px;
+}
+
+.how-we-work-wrapper p {
+	text-align: center;
+	font-size: 16px;
+}
+
+.contacts {
+	text-align: center;
+	background-color: #f7f9ff;
+}
+
+.contacts .bottom {
+	display: inline-block;
+	margin-top: 17px;
+	margin-bottom: 97px; 
+}
+
+.trust-us img {
+	width: 120px;
+	height: 120px;
+}
+
+.trust-us p {
+	text-align: center;
+	font-size: 16px;
+}
+
+.bottom {
+	background-color: #e41951;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 18px 33px;
+	border-radius: 32px;
+	cursor: pointer;
+}
+
+.bottom:hover {
+	background-color: #911033;
+}
