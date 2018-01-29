@@ -53,6 +53,16 @@ h3 {
 	padding: 60px 0px;
 }
 
+h4 {
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 26px;
+	color: #ffffff;
+	padding-left: 40px;
+	padding-top: 60px;
+	padding-bottom: 26px;
+}
+
 img {
 	width: 100%;
 }
@@ -167,17 +177,27 @@ header .navbar .navbar-brand {
 	background-size: cover;
 }
 
-.offers .kap-remont h4{
-	color: #ffffff;
+.offers .kap-remont .bottom {
+	width: 300px;
+	margin: 0 auto;
+	text-align: center;
 }
 
 .offers .kap-remont li{
 	color: #ffffff;
+	list-style-type: none;
+	font-size: 14px;
+}
+
+.offers .kap-remont li:before {
+	content: "-";
 }
 
 .about-company .img-size {
 	width: 100px;
 	height: 120px;
+	line-height: 120px;
+	margin: 0px auto;
 }
 
 .about-company .img-size img {
