@@ -171,26 +171,48 @@ header .navbar .navbar-brand {
 	margin: 0 auto;
 }
 
+.offers .content-wrapper {
+	height: 600px;
+}
+
+.offers .buttom-wrapper {
+	height: 100px;
+}
+
+.offers .container {
+	margin-bottom: 40px;
+}
+
 .offers .kap-remont {
 	height: 700px;
 	background: url(../img/img-service-1.png) no-repeat;
 	background-size: cover;
 }
 
-.offers .kap-remont .bottom {
+.offers .bottom {
 	width: 300px;
 	margin: 0 auto;
 	text-align: center;
 }
 
-.offers .kap-remont li{
+.offers .jur-offers {
+	height: 700px;
+	background: url(../img/img-service-5.png) no-repeat;
+	background-size: cover;
+}
+
+.offers li{
 	color: #ffffff;
 	list-style-type: none;
 	font-size: 14px;
 }
 
-.offers .kap-remont li:before {
-	content: "-";
+.offers li:before {
+	content: "-  ";
+}
+
+.about-company .container {
+	margin-bottom: 60px;
 }
 
 .about-company .img-size {
@@ -230,6 +252,11 @@ header .navbar .navbar-brand {
 	margin-bottom: 97px; 
 }
 
+.trust-us .container {
+	margin-bottom: 60px;
+}
+
+
 .trust-us img {
 	width: 120px;
 	height: 120px;
@@ -238,6 +265,18 @@ header .navbar .navbar-brand {
 .trust-us p {
 	text-align: center;
 	font-size: 16px;
+}
+
+footer {
+	height: 50px;
+	background-color: #f7f9ff;
+}
+
+footer p {
+	line-height: 70px;
+    text-align: center;
+    color: #8d99ae;
+    font-size: 12px;
 }
 
 .bottom {
