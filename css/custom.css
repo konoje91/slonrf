@@ -267,6 +267,56 @@ header .navbar .navbar-brand {
 	font-size: 16px;
 }
 
+.comments .vk-container {
+	max-width: 940px;
+	margin: 0px auto;
+}
+
+.write-me {
+	background-color: #e3ebff;
+	padding-bottom: 70px;
+}
+
+.write-me .order-form .button-order {
+	margin: 0 auto;	
+}
+
+.write-me input {
+    width: 300px;
+    line-height: 60px;
+    border-radius: 30px;
+    text-indent: 10px;
+    font-size: 18px;
+}
+
+.write-me input:placeholder-shown {
+	border: 0px;
+}
+
+.write-me textarea:placeholder-shown {
+	border: 0px;
+}
+
+.write-me textarea {
+	width: 300px;
+  	height: 120px;
+  	border-radius: 30px;
+  	text-indent: 10px;
+  	font-size: 18px;
+}
+
+.write-me .order-form {
+	text-align: center;
+}
+
+.write-me .complete-message {
+	display: none;
+}
+
+.write-me .bottom {
+    width: 300px;
+}
+
 footer {
 	height: 50px;
 	background-color: #f7f9ff;

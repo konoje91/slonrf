@@ -24,4 +24,10 @@ $(document).ready(function() {
                 }, 1000);
 	});
 
+	$('.bottom').on('click', function(){
+				$('html, body').animate({
+                    scrollTop: $(".write-me").offset().top
+                }, 1000);
+	});
+
 });
