@@ -132,7 +132,7 @@ header .navbar .navbar-brand {
 .main-info-block {
 	background: url(../img/header.png) no-repeat;
 	background-size: cover;
-	height: 600px; 
+	height: 620px; 
 }
 
 .main-info-block .consultation {
@@ -153,8 +153,7 @@ header .navbar .navbar-brand {
 }
 
 .main-info-block .info-text {
-	width: 620px;
-	padding-top: 60px;
+	max-width: 940px;
 	margin: 0px auto;
 	text-align: center;	
 }
@@ -193,12 +192,6 @@ header .navbar .navbar-brand {
 	width: 300px;
 	margin: 0 auto;
 	text-align: center;
-}
-
-.offers .jur-offers {
-	height: 700px;
-	background: url(../img/img-service-5.png) no-repeat;
-	background-size: cover;
 }
 
 .offers li{
@@ -350,4 +343,36 @@ footer p {
 
 .bottom:hover {
 	background-color: #911033;
+}
+
+@media (max-width: 767px) {
+
+	header .header-wrapper {
+		height: auto;
+	}
+
+	header .header-wrapper .main-header {
+    	width: auto;
+	}
+	
+	header .header-wrapper .main-header .logo{
+		float: none;
+		text-align: center;
+	}
+
+	header .header-wrapper .main-header .main-info{
+		float: none;
+	}
+
+	.main-info-block {
+		height: auto;
+	}
+
+	.offers .kap-remont {
+		height: auto;
+	}
+
+	.offers .content-wrapper {
+		height: auto;
+	}
 }
